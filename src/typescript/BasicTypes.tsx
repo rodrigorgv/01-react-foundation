@@ -9,7 +9,7 @@ export const BasicTypes = () => {
       <h3>Tipos basicos</h3>
       {name} {age}
       {isActive ? 'true' : 'false'}
-      <br />
+      <br/>
       {powers.join(', ')}
     </>
   );
