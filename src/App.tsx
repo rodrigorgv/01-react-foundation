@@ -1,15 +1,19 @@
 // import { BasicTypes } from './typescript';
-import BasicFunction from './typescript/BasicFunction';
+// import BasicFunction from './typescript/BasicFunction';
 // import ObjectLiterals from './typescript/ObjectLiterals';
-//no es necesario poner /typescript/index.ts ya que al ser index lo toma como principal
+import { CounterWithHook, LoginPage } from './components';
+import { Counter } from './components/Counter'
 
 function App() {
   return (
     <main>
       <h1>introduccion a TS - React</h1>
-      {/* <BasicTypes /> */}\
+      {/* <BasicTypes /> */}
       {/* <ObjectLiterals></ObjectLiterals> */}
-      <BasicFunction></BasicFunction>
+      {/* <BasicFunction></BasicFunction> */}
+      {/* <Counter></Counter> */}
+      {/* <CounterWithHook></CounterWithHook> */}
+      <LoginPage></LoginPage>
     </main>
   );
 }
